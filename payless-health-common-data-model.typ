@@ -1,20 +1,17 @@
 #import "datathinking.org-report-template.typ": datathinking
 #show: body => datathinking(
-  title: "Data Thinking Bootcamp: Tech Freedom Schools Edition",
+  title: "Expanding the OMOP Common Data Model in Accord with Federal Rules for Hospital Price Transparency and Transparency in Coverage",
   authors: (
     (
       name: "Dr. Jaan Altosaar Li",
-      affiliation: "One Fact Foundation 
-University of Pennsylvania
-Tartu University",
+      affiliation: "One Fact Foundation
+University of Tartu University",
       email: "jaan@onefact.org",
     ),
     (
-      name: "Dr. Ruha Benjamin",
-      affiliation: "Ida B. Wells Just Data Lab
-African American Studies 
-Princeton University",
-      email: "",
+      name: "Michele Tadiello",
+      affiliation: "One Fact Foundation",
+      email: "michele@onefact.org",
     ),
     (
       name: "Cierra Robson",
@@ -56,22 +53,11 @@ In English style and usage, there is no right answer. This is because practition
 
 To illustrate these principles to learners, we ground our initial discussion on language, as a gentle introduction to the feeling of the rug being swept from under your feet as you realize that most things are a social construct subject to the forces of cultural evolution, collective behavior, history and so on: from race to gender, to the country you live in and the verbal events of thoughts, emotions, and feelings you use to communicate each day.
 
-Subsequent to language, we turn to numbers. Who trusts numbers? Who uses numbers to make decisions? We use open-ended questions #cite("gibb_once_2023") to elicit questions from learners and guide their cognitive processes toward several such focal points of discussion. Readings such as #cite("ogle_time_2019", "odell_no_2017", "zarya_nourishment_2023", "hoang_spiderweb_2022") further help "pull the rug out" from beneath concepts learners' might be anchored to given their diverse backgrounds and upbringings, such as time, money, capitalism, and other social constructs that relevant to the key concepts woven throughout this course such as immigration, the criminal legal system, education, health care, climate and the environment.
 
-To ensure learners are given ample space to explore their potential for building psychological flexibility, informed consent and mental health are key, which can be reinforced through readings such as @fiorella_how_2022.
 
 == Topics 
 We illustrate the differences between prescriptivist and descriptivist stances toward the English language using the following readings:
 
-- *Arts and culture*. @williams_hip-hop_2015 describes how the subversive elements of hip hop can be viewed as amplifying their political impact by enabling listeners to also consider breaking "rules", in opposition to prescriptivist censorship or criticism of this music due to its nonconformism.
-
-- *English language usage and style*. #cite("orwell_politics_1946", "wallace_democracy_2001", "garner_garners_2022", "butterfield_fowlers_2015", "stahl_english_2023", "somers_youre_2014") all provide descriptors of varying stances toward modern English and usage, and some such as @garner_garners_2022 even include weighty discussion of social justice issues that intersect with written and spoken language. @tutuola_palm-wine_1994, written as oral traditions in the Yoruba culture were being succeeded by English serve to "break the fourth wall" and highlight a learner's own experience and responses to "standard English" versus how they might define "non-standard English" for themselves, alongside monitoring their implicit biases and rules throughout their data thinking journey.
-
-- *Ethnography, anthropology, storytelling, and open source intelligence.* #cite("chipchase_field_2017", "fiorella_how_2022", "holmes_fresh_2013", "cooperrider_allure_2023", "villarreal_logistics_2022", "effler_laughing_2010", "gould_when_2015")
-
-- *Health.* #cite("mikkelsen_covid-19_2023", "zarya_nourishment_2023", "bridges_reproducing_2011").
-
-- *Journalism.* #cite("angwin_journalistic_2023").
 
 == Skills
 The first week serves to begin exposing you to stimuli of your choice (such as embarking on this course! or choosing what to read).
@@ -90,22 +76,6 @@ The first week serves to begin exposing you to stimuli of your choice (such as e
 
 = week 2: mathematics, statistics, and thinking like a limited partner buying out 
 
-
-This week we help learners try on a new "mask", @johnstone_impro_1987, and learn mental models to help them understand the incentives that belie the data they work with. We will help learners find categories of permeable experience: vision, species classification, collective behavior, machine learning models, languages/dialects, sectors of the economy, color @twomey_what_2021, justice, borders, skin tone, race, ethnicity, disease, toxics @noauthor_jj_nodate, and so on. When something becomes categorized, and a group of humans agree on this category (or a single human with power or status agrees), then this category or delineation can be exploited by the market, and the invisible hand of the market can step in and helping society delineate further borders and create efficiencies. 
-
-Such factors and data journeys are essential to practicing the art and science of data thinking.
-
-In this week, learners will be guided through a brief history of statistics, starting from disputes at the foundations of this field @lenhard_models_2006, and from how things like the Normal distribution were first used to segregate Black people and white people by cognitive ability. 
-
-Such mathematical and theoretical foundations, combined with perspectives from sociology, anthropology, and ethnography of data and numbers will help learners draw their own conclusions (or lack thereof!) from data.
-
-Following such foundation material, learners will be able to use large language models to engineer prompts to learn prescriptive and descriptive ways of describing a simple machine learning model. 
-
-They will then apply this model to data of their choice. In parallel, they will be tasked with developing a research question, extending their first week's experience report, and critiquing fellow learners' research questions.
-
-The data thinking framework of "feel, ask, do, think" serves to anchor learners in a process that helps them decide on stimulus-response-stimulus patterns to guide their exploration of concepts in the class. By this second week, learners are expected to become familiar with core data thinking skills of asking for help (from fellow learners, instructors, large language models), articulating in writing descriptions of experience, basic programming in python and the command line (in GitHub codespaces), and generating simple visualizations from data of their choosing.
-
-= week 3: data cleaning, duckdb, and databases
 
 = week 4: visualizations and metadata
 
@@ -152,18 +122,6 @@ The phenotype workflow requires subject matter experts such as bioinformaticions
   image("figures/phenotype-workflow-diagram.svg"),
   caption: [The phenotype workflow can help practice data thinking to best validate definitions of health and disease, intellectual property, the market dynamics, etc.],
 )
-
-/*
-Subsequent to the phenotype workflow, retrospective observational health studies can help verify a working definition of a disorder or disease. This is especially important when clinician training and the development of care pathways requires defined using a novel measurement such as from a biometric device. Similarly, proxy measurements of peripheral physiology can be extracted from a webcam or smartphone and require a phenotype definition. Most importantly in the context of mental health, evidence-based metrics for dyadic features such as therapeutic alliance must evolve in tandem with available research and data @vail_toward_2022. 
-*/
-
-/*
-The phenotype workflow is also necessary to comply with the law, ranging from equal opportunity to non-discrimination, and builds on our prior work of assessing phenotype definitions for equity using definitions from computer science literature of algorithmic fairness @sun_assessing_2022. Concurrent to monitoring definitions for dataset shift, case-mix index, patient, provider and payor financial burdens, and other sources of bias in delivering care, the phenotype workflow sets a standard for benchmarking clinical guidelines and enabling them to evolve in response to community needs.
-*/
-
-/*
-Deep representations of data generated by both the patient and the care team data can therefore enable practitioners of data thinking in medicine to build novel digital therapeutics that improve health and treat disease. Desiderata for such representations include rapid visualization and feedback from all stakeholders in the design of such artificial intelligence systems. This type of iterative, human-in-the-loop design can best reduce the information asymmetry between a patient, their family, and their care team as early as possible in childhood. Integrating human feedback into artificial intelligence using visualization and data-labeling systems can enable autonomy and reduce the burden of care, by enabling assessment, management, and triage distal from the point of care. Further, by leveraging cross-cultural invariance in physiology, genomics, biometrics, and psychopathology, such human feedback can enable training clinical teams across language and cultural barriers by focusing on the care algorithms supported by evidence-based guidelines in clinical decision support tools such as UpToDate @noauthor_uptodate_nodate or DynaMed @noauthor_dynamed_nodate.
-*/
         
 /*
 #figure(
@@ -198,4 +156,4 @@ The next generation of digital therapeutics will require petabyte-scale computat
 */
 */
 
-#bibliography("example-zotero-group-shared-bibliography.bib")
+#bibliography("onefact.org.bib")
