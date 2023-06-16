@@ -121,7 +121,7 @@
   set align(left)
   set pad(x: 60pt)
   par(justify: true)[
-    #smallcaps[bootcamp description.  ] 
+    #smallcaps[abstract.  ] 
     #abstract
   ]
   set align(left)

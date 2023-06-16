@@ -35,6 +35,26 @@
   file = {/Users/me/Zotero/storage/EGHINDSW/Burgess and Plunkett - 2020 - On the relation between conceptual engineering and.pdf}
 }
 
+@online{cms_resources_2023,
+  title = {Resources | {{CMS}}},
+  author = {CMS},
+  date = {2023},
+  url = {https://www.cms.gov/hospital-price-transparency/resources},
+  urldate = {2023-06-16},
+  file = {/Users/me/Zotero/storage/W9SRTVWG/resources.html}
+}
+
+@software{cms_transparency_2023,
+  title = {Transparency in {{Coverage}}},
+  author = {CMS},
+  date = {2023-05-30T16:32:27Z},
+  origdate = {2019-10-02T06:42:01Z},
+  url = {https://github.com/CMSgov/price-transparency-guide},
+  urldate = {2023-06-16},
+  abstract = {The technical implementation guide for the tri-departmental price transparency rule.},
+  organization = {{Centers for Medicare \& Medicaid Services}}
+}
+
 @article{curto-millet_sustainability_2022,
   title = {The Sustainability of Open Source Commons},
   author = {Curto-Millet, Daniel and Corsín Jiménez, Alberto},
@@ -329,6 +349,25 @@
   file = {/Users/me/Zotero/storage/5CMRB4CH/Peysakhovich et al. - 2023 - Pseudo-Euclidean Attract-Repel Embeddings for Undi.pdf;/Users/me/Zotero/storage/F8IDPQ3T/2106.html}
 }
 
+@inproceedings{raasveldt_duckdb_2019,
+  title = {{{DuckDB}}: An {{Embeddable Analytical Database}}},
+  shorttitle = {{{DuckDB}}},
+  booktitle = {Proceedings of the 2019 {{International Conference}} on {{Management}} of {{Data}}},
+  author = {Raasveldt, Mark and Mühleisen, Hannes},
+  date = {2019-06-25},
+  pages = {1981--1984},
+  publisher = {{ACM}},
+  location = {{Amsterdam Netherlands}},
+  doi = {10.1145/3299869.3320212},
+  url = {https://dl.acm.org/doi/10.1145/3299869.3320212},
+  urldate = {2023-05-19},
+  abstract = {The great popularity of SQLite shows that there is a need for unobtrusive in-process data management solutions. However, there is no such system yet geared towards analytical workloads. We demonstrate DuckDB, a novel data management system designed to execute analytical SQL queries while embedded in another process. In our demonstration, we pit DuckDB against other data management solutions to showcase its performance in the embedded analytics scenario. DuckDB is available as Open Source software under a permissive license.},
+  eventtitle = {{{SIGMOD}}/{{PODS}} '19: {{International Conference}} on {{Management}} of {{Data}}},
+  isbn = {978-1-4503-5643-5},
+  langid = {english},
+  file = {/Users/me/Zotero/storage/GJ37UEYC/Raasveldt and Mühleisen - 2019 - DuckDB an Embeddable Analytical Database.pdf}
+}
+
 @article{shimizu_effectiveness_2018,
   title = {Effectiveness of a Clinical Knowledge Support System for Reducing Diagnostic Errors in Outpatient Care in {{Japan}}: {{A}} Retrospective Study},
   shorttitle = {Effectiveness of a Clinical Knowledge Support System for Reducing Diagnostic Errors in Outpatient Care in {{Japan}}},
@@ -405,4 +444,42 @@
   author = {Walli, Stephen R},
   langid = {english},
   file = {/Users/me/Zotero/storage/GJMYFD7W/Walli - OHDSI Choose Your Own Open Source Adventure.pdf}
+}
+
+@article{zech_variable_2018,
+  title = {Variable Generalization Performance of a Deep Learning Model to Detect Pneumonia in Chest Radiographs: {{A}} Cross-Sectional Study},
+  shorttitle = {Variable Generalization Performance of a Deep Learning Model to Detect Pneumonia in Chest Radiographs},
+  author = {Zech, John R. and Badgeley, Marcus A. and Liu, Manway and Costa, Anthony B. and Titano, Joseph J. and Oermann, Eric Karl},
+  date = {2018-11-06},
+  journaltitle = {PLOS Medicine},
+  shortjournal = {PLOS Medicine},
+  volume = {15},
+  number = {11},
+  pages = {e1002683},
+  publisher = {{Public Library of Science}},
+  issn = {1549-1676},
+  doi = {10.1371/journal.pmed.1002683},
+  url = {https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683},
+  urldate = {2023-06-16},
+  abstract = {Background There is interest in using convolutional neural networks (CNNs) to analyze medical imaging to provide computer-aided diagnosis (CAD). Recent work has suggested that image classification CNNs may not generalize to new data as well as previously believed. We assessed how well CNNs generalized across three hospital systems for a simulated pneumonia screening task. Methods and findings A cross-sectional design with multiple model training cohorts was used to evaluate model generalizability to external sites using split-sample validation. A total of 158,323 chest radiographs were drawn from three institutions: National Institutes of Health Clinical Center (NIH; 112,120 from 30,805 patients), Mount Sinai Hospital (MSH; 42,396 from 12,904 patients), and Indiana University Network for Patient Care (IU; 3,807 from 3,683 patients). These patient populations had an age mean (SD) of 46.9 years (16.6), 63.2 years (16.5), and 49.6 years (17) with a female percentage of 43.5\%, 44.8\%, and 57.3\%, respectively. We assessed individual models using the area under the receiver operating characteristic curve (AUC) for radiographic findings consistent with pneumonia and compared performance on different test sets with DeLong’s test. The prevalence of pneumonia was high enough at MSH (34.2\%) relative to NIH and IU (1.2\% and 1.0\%) that merely sorting by hospital system achieved an AUC of 0.861 (95\% CI 0.855–0.866) on the joint MSH–NIH dataset. Models trained on data from either NIH or MSH had equivalent performance on IU (P values 0.580 and 0.273, respectively) and inferior performance on data from each other relative to an internal test set (i.e., new data from within the hospital system used for training data; P values both {$<$}0.001). The highest internal performance was achieved by combining training and test data from MSH and NIH (AUC 0.931, 95\% CI 0.927–0.936), but this model demonstrated significantly lower external performance at IU (AUC 0.815, 95\% CI 0.745–0.885, P = 0.001). To test the effect of pooling data from sites with disparate pneumonia prevalence, we used stratified subsampling to generate MSH–NIH cohorts that only differed in disease prevalence between training data sites. When both training data sites had the same pneumonia prevalence, the model performed consistently on external IU data (P = 0.88). When a 10-fold difference in pneumonia rate was introduced between sites, internal test performance improved compared to the balanced model (10× MSH risk P {$<$} 0.001; 10× NIH P = 0.002), but this outperformance failed to generalize to IU (MSH 10× P {$<$} 0.001; NIH 10× P = 0.027). CNNs were able to directly detect hospital system of a radiograph for 99.95\% NIH (22,050/22,062) and 99.98\% MSH (8,386/8,388) radiographs. The primary limitation of our approach and the available public data is that we cannot fully assess what other factors might be contributing to hospital system–specific biases. Conclusion Pneumonia-screening CNNs achieved better internal than external performance in 3 out of 5 natural comparisons. When models were trained on pooled data from sites with different pneumonia prevalence, they performed better on new pooled data from these sites but not on external data. CNNs robustly identified hospital system and department within a hospital, which can have large differences in disease burden and may confound predictions.},
+  langid = {english},
+  keywords = {Critical care and emergency medicine,Deep learning,Indiana,Inpatients,Medical risk factors,Natural language processing,Pneumonia,Radiology and imaging},
+  file = {/Users/me/Zotero/storage/4EVIMX4A/Zech et al. - 2018 - Variable generalization performance of a deep lear.pdf}
+}
+
+@online{zelko_developing_2023,
+  title = {Developing a {{Robust Computable Phenotype Definition Workflow}} to {{Describe Health}} and {{Disease}} in {{Observational Health Research}}},
+  author = {Zelko, Jacob S. and Gasman, Sarah and Freeman, Shenita R. and Lee, Dong Yun and Altosaar, Jaan and Shoaibi, Azza and Rao, Gowtham},
+  date = {2023-03-30},
+  eprint = {2304.06504},
+  eprinttype = {arxiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.2304.06504},
+  url = {http://arxiv.org/abs/2304.06504},
+  urldate = {2023-05-19},
+  abstract = {Health informatics can inform decisions that practitioners, patients, policymakers, and researchers need to make about health and disease. Health informatics is built upon patient health data leading to the need to codify patient health information. Such standardization is required to compute population statistics (such as prevalence, incidence, etc.) that are common metrics used in fields such as epidemiology. Reliable decision-making about health and disease rests on our ability to organize, analyze, and assess data repositories that contain patient health data. While standards exist to structure and analyze patient data across patient data sources such as health information exchanges, clinical data repositories, and health data marketplaces, analogous best practices for rigorously defining patient populations in health informatics contexts do not exist. Codifying best practices for developing disease definitions could support the effective development of clinical guidelines, inform algorithms used in clinical decision support systems, and additional patient guidelines. In this paper, we present a workflow for the development of phenotype definitions. This workflow presents a series of recommendations for defining health and disease. Various examples within this paper are presented to demonstrate this workflow in health informatics contexts.},
+  pubstate = {preprint},
+  keywords = {Computer Science - Computers and Society},
+  note = {Comment: IEEE Computer Based Medical Systems Conference},
+  file = {/Users/me/Zotero/storage/6PNL9UWG/Zelko et al. - 2023 - Developing a Robust Computable Phenotype Definitio.pdf;/Users/me/Zotero/storage/G5UGKPFK/2304.html}
 }
